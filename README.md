@@ -25,12 +25,18 @@ Outliers can skew statistical analyses and machine learning models. Techniques s
 It's common practice to split the dataset into training, validation, and test sets. The training set is used to train the model, the validation set is used to tune hyperparameters and evaluate model performance during training, and the test set is used to evaluate the final model performance.
 
 ## Text Data:
-### Tokenization: Breaking down text into smaller units such as words or characters.
-### Stopword Removal: Eliminating common words (e.g., "the", "is") that may not carry much meaning.
-### Stemming and Lemmatization: Reducing words to their root form to normalize the text (e.g., "running" to "run").
-### TF-IDF Vectorization: Converting text documents into numerical vectors based on term frequency-inverse document frequency.
-### Word Embeddings: Mapping words to dense vector representations using techniques like Word2Vec, GloVe, or BERT.
-### Named Entity Recognition (NER): Identifying and categorizing named entities (e.g., persons, organizations) in text.
+### Tokenization: 
+Breaking down text into smaller units such as words or characters.
+### Stopword Removal:
+Eliminating common words (e.g., "the", "is") that may not carry much meaning.
+### Stemming and Lemmatization: 
+Reducing words to their root form to normalize the text (e.g., "running" to "run").
+### TF-IDF Vectorization: 
+Converting text documents into numerical vectors based on term frequency-inverse document frequency.
+### Word Embeddings:
+Mapping words to dense vector representations using techniques like Word2Vec, GloVe, or BERT.
+### Named Entity Recognition (NER): 
+Identifying and categorizing named entities (e.g., persons, organizations) in text.
 
 
 Data preprocessing techniques can vary depending on the modality of the data. Here's a breakdown of common preprocessing steps for different types of data modalities:
@@ -50,10 +56,16 @@ Converting images to different color spaces (e.g., RGB to grayscale) for specifi
 Identifying objects within images and localizing their positions using techniques like bounding boxes.
 
 ## Audio Data:
-### Resampling: Ensuring uniform sampling rates across audio files.
-### Feature Extraction: Extracting features such as Mel-Frequency Cepstral Coefficients (MFCCs), spectrograms, or chroma features.
-### Normalization: Scaling audio features to a consistent range.
-### Augmentation: Introducing variations in pitch, speed, or background noise to increase the diversity of training samples.
-### Speech Recognition Preprocessing: Segmenting audio into phonemes, words, or sentences for speech recognition tasks.
-### Environmental Noise Reduction: Filtering out background noise that may interfere with audio analysis.
+### Resampling: 
+Ensuring uniform sampling rates across audio files.
+### Feature Extraction: 
+Extracting features such as Mel-Frequency Cepstral Coefficients (MFCCs), spectrograms, or chroma features.
+### Normalization: 
+Scaling audio features to a consistent range.
+### Augmentation: 
+Introducing variations in pitch, speed, or background noise to increase the diversity of training samples.
+### Speech Recognition Preprocessing: 
+Segmenting audio into phonemes, words, or sentences for speech recognition tasks.
+### Environmental Noise Reduction: 
+Filtering out background noise that may interfere with audio analysis.
 
